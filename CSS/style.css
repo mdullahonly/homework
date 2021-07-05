@@ -1,0 +1,120 @@
+
+/*common code start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: ;
+	font-size: 14px;
+	font-weight:400 ;
+	
+}
+
+/*common code end*/
+
+/*header part start*/
+header{
+	/*border: 1px solid red;*/
+}
+.container{
+	margin: 0 auto;
+	overflow: hidden;
+	width: 90%;
+	/*border: 1px solid green;*/
+
+}
+.logo{
+	margin-top: 7px;
+	width: 15%;
+	/*border: 1px solid red;*/
+	float: left;
+}
+.logo a{}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	width: 63%;
+	/*border: 1px solid;*/
+	float: right;
+}
+.menu ul{
+	list-style: none;
+	float: right;
+
+}
+.menu ul li{
+	float: left;
+
+}
+.menu ul li a{
+	 margin: 0 30px;
+	 display: inline-block;
+	 color: #626262;
+	 text-decoration: none;
+	 text-transform: uppercase;
+}
+
+.menu ul li:last-child a{
+	margin-right: 0px;
+}
+.menu ul li a hover{
+
+}
+
+/*header part end*/
+
+
+/*2nd header start*/
+.head{
+	text-align: center;
+}
+.container3{
+	/*border: 1px solid red;*/
+	width: 80%;
+	margin: 0 auto;
+	background-color: #fcdb00;
+
+}
+.content2{
+	overflow: hidden;
+}
+.logo2{
+	margin-top: 10px;
+	width: 7%;
+	/*border: 1px solid green;*/
+	float: left;
+}
+.logo a{}
+.logo a img{
+
+}
+.logo3{
+	width: 20%;
+	/*border: 1px solid yellow;*/
+	float: left;
+}
+.menu2{
+	width: 43%;
+	/*border: 1px solid red;*/
+	float: right;
+	margin-top: 10px;
+}
+.menu2 ul{
+	list-style: none;
+
+}
+.menu2 ul li{
+
+
+
+}
+.menu2 ul li a{
+	float: left;
+	margin: 0 30px;
+	color: @010101;
+	text-decoration: none;
+}
+.menu2 ul li:last-child a{
+	margin-right: 0;
+}
+.menu2 ul li a:hover{}
